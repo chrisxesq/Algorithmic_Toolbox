@@ -14,7 +14,21 @@ def change_naive(money):
 
 
 def change(money):
-    type here
+  if money == 0:
+     return 0
+  best = -1
+  if money == 1 or money == 3 or money == 4:
+      best = 1
+  elif money ==2:
+      best = 2
+  else:
+      k = money - 4
+      if k/4 > k//4:
+          k = k//4 + 1
+      else:
+          k = k//4
+      best = 1 + k
+  return best
 
 
 if __name__ == '__main__':

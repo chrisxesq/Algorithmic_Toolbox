@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 9
+    length: 706
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -27,14 +27,14 @@ files:
   visible: true
   placeholders:
   - offset: 364
-    length: 9
+    length: 16
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 364
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from edit_distance import edit_distance
@@ -104,5 +104,8 @@ files:
             passed()
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Wrong answer for abacabadabacabaeabacab and aeabacabad
+  time: Wed, 27 Jan 2021 02:13:16 UTC
 record: -1

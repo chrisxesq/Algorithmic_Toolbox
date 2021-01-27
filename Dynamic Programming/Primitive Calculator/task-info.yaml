@@ -7,14 +7,14 @@ files:
   visible: true
   placeholders:
   - offset: 186
-    length: 9
+    length: 5
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 186
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     import unittest
     from primitive_calculator import compute_operations
@@ -61,15 +61,15 @@ files:
 - name: primitive_calculator.py
   visible: true
   placeholders:
-  - offset: 72
-    length: 9
+  - offset: 643
+    length: 16
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 72
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
   text: |
     # python3
 
@@ -86,5 +86,9 @@ files:
         print(*output_sequence)
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
-status: Unchecked
+status: Failed
+feedback:
+  message: Some unit tests failed. Please fix your code, ensure that all unit tests
+    pass, and try again.
+  time: Tue, 26 Jan 2021 21:48:32 UTC
 record: -1
