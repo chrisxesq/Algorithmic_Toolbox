@@ -39,13 +39,13 @@ files:
   visible: true
   placeholders:
   - offset: 282
-    length: 9
+    length: 15
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 282
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -70,14 +70,14 @@ files:
 - name: partition_souvenirs.py
   visible: true
   placeholders:
-  - offset: 173
-    length: 9
+  - offset: 64
+    length: 1936
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 173
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -100,4 +100,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/discussions
 status: Unchecked
+feedback:
+  message: <html>Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-4-dynamic-programming/submission">submit
+    to Coursera</a></html>
+  time: Tue, 02 Feb 2021 02:52:48 UTC
 record: -1

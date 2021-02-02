@@ -9,7 +9,7 @@ class PartitionSouvenirs(unittest.TestCase):
             ((7, 7, 7), 1),
             ((3, 3, 3), 1),
             ((3, 3, 3, 3), 0),
-            type here
+            ((3,4,1,4,3),0)
         ):
             self.assertEqual(partition3(values), answer)
 
